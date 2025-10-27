@@ -8,14 +8,17 @@ const TvPage = () => {
   return (
    <>
    <Navbar/>
-   <h2>TV's</h2>
     <div className='tvPageSection'>
       {
               tvData.map((item)=>{
                   return(
-                      <div className="tvPageImages">
+                    <div className="tvItemContainer">
+                      <div className="tvPageCard">
                           <img src={item.image}  />
                       </div>
+                      <h3 className='tvProductName'>{item.brand}</h3>
+                    </div>
+                      
       
                   )
               })

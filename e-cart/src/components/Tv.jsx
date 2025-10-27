@@ -11,6 +11,7 @@ const Tv = () => {
       {
               images.map((item)=>{
                   return(
+                  
                       <div className="tvImages">
                           <img src={item.image}  />
                       </div>

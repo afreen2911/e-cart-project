@@ -1,6 +1,6 @@
-/* MobilesPage.css */
+/* tvPage.css */
 
-.mobilesPageSection {
+.tvPageSection {
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 20px;
@@ -11,7 +11,7 @@
 
 }
 
-.mobileItemContainer {
+.tvItemContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,11 +19,11 @@
   transition: transform 0.2s ease;
 }
 
-.mobileItemContainer:hover {
+.tvItemContainer:hover {
   transform: translateY(-4px) scale(1.03);
 }
 
-.mobilesPageCard {
+.tvPageCard {
   width: 270px;
   height: 270px;
   background: #fff;
@@ -36,7 +36,7 @@
   margin-bottom: 8px;
 }
 
-.mobilesPageCard img {
+.tvPageCard img {
   max-width: 95%;
   max-height: 90%;
   object-fit: contain;
@@ -44,11 +44,11 @@
   transition: box-shadow 0.25s;
 }
 
-.mobileItemContainer:hover .mobilesPageCard img {
+.tvItemContainer:hover .tvPageCard img {
   box-shadow: 0 4px 16px rgba(0,0,0,0.14);
 }
 
-.mobilesProductName {
+.tvProductName {
   font-size: 1.08rem;
   font-weight: 500;
   color: #374151;
@@ -59,36 +59,36 @@
 }
 /* For tablets (2 images per row) */
 @media (max-width: 1024px) and (min-width: 601px) {
-  .mobilesPageSection {
+  .tvPageSection {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
 
-  .mobilesPageCard {
+  .tvPageCard {
     width: 240px;
     height: 240px;
   }
 
-  .mobilesProductName {
+  .tvProductName {
     font-size: 1rem;
   }
 }
 
-/* For mobile phones (1 image per row) */
+/* For tv phones (1 image per row) */
 @media (max-width: 600px) {
-  .mobilesPageSection {
+  .tvPageSection {
     grid-template-columns: 1fr;
     gap: 16px;
     padding: 20px;
   }
 
-  .mobilesPageCard {
+  .tvPageCard {
     width: 50%;
     height: 230px;
     margin: 5 auto; /* centers image card */
   }
 
-  .mobilesProductName {
+  .tvProductName {
     font-size: 0.98rem;
     font-weight: bold;
     text-align: center;

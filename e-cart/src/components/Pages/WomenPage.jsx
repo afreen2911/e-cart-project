@@ -7,13 +7,17 @@ const WomenPage = () => {
   return (
     <>
     <Navbar/>
-    <div className='womanPageSection'>
+    <div className='womenPageSection'>
       {
         womanData.map((item)=>{
             return(
-                <div className="womanPageImages">
+              <div className="womenItemContainer">
+                <div className="womenPageCard">
                     <img src={item.image} alt="" />
                 </div>
+                <h3 className='womenProductName'>{item.type}</h3>
+              </div>
+                
             )
         })
       }
