@@ -8,15 +8,18 @@ const TabletPage = () => {
   return (
     <>
     <Navbar/>
-    <h2>TabletPages</h2>
     <div className='tabletPageSection'>
       {
         tabletData.map((item)=>{
             return(
-                <div className="tabletPageImages">
-                    <img src={item.image}  />
+                <div className="tabletItemContainer">
+                  <div className="tabletImageCard">
+                    <img src={item.image}  alt=''/>
+                  </div>
+                    <h3 className="tabletProductName">
+                  {item.company}
+                </h3>
                 </div>
-
             )
         })
       }

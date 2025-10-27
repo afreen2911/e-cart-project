@@ -12,7 +12,7 @@ const MobilesPage = () => {
       mobileData.map((item) => (
         <div className="mobileItemContainer">
           <div className="mobilesPageCard">
-            <img src={item.image} alt={item.product} />
+            <img src={item.image} alt="" />
           </div>
           <h3 className="mobilesProductName">
             {item.company}

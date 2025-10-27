@@ -119,5 +119,44 @@ export const tabletData = [
     "category": "Electronics",
     "description": "Nokia tablet with compact design and basic functionalities."
   },
-  
-]
+  {
+    "id": "13",
+    "product": "Tablet",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/tablet/c/h/w/-original-imahfdyfjzk2zwf9.jpeg?q=70",
+    "company": "Lava",
+    "model": "Lava Magnum XL",
+    "price": "189.00",
+    "category": "Electronics",
+    "description": "Lava tablet with smooth performance and long-lasting battery."
+  },
+  {
+    "id": "14",
+    "product": "Tablet",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/tablet/5/f/o/-original-imahfuryhtxmm56f.jpeg?q=70",
+    "company": "Honor",
+    "model": "Pad X9",
+    "price": "299.00",
+    "category": "Electronics",
+    "description": "Honor tablet with immersive sound and sleek metal body."
+  },
+  {
+    "id": "15",
+    "product": "Tablet",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/tablet/v/4/h/-original-imagu5gbhgbjqvh6.jpeg?q=70",
+    "company": "Dell",
+    "model": "Venue 10",
+    "price": "259.00",
+    "category": "Electronics",
+    "description": "Dell tablet built for productivity and entertainment."
+  },
+  {
+    "id": "16",
+    "product": "Tablet",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/tablet/w/l/i/sl39-os9-3c-domo-original-imah9jy6yyjcqkka.jpeg?q=70",
+    "company": "DOMO",
+    "model": "SL39 OS9",
+    "price": "149.00",
+    "category": "Electronics",
+    "description": "DOMO tablet offering budget-friendly performance for casual users."
+  }
+];
