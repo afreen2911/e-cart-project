@@ -16,7 +16,7 @@
 /* First line — Title, Search bar, and Right side */
 .navSection .title {
   font-size: 26px;
-  font-weight: 700;
+  font-weight: bold;
   color: #007bff;
   display: inline-block;
   vertical-align: middle;
@@ -46,9 +46,11 @@
 
 /* Right section (Sign In / Cart) */
 .rightSection {
-  display: inline-block;
-  float: right;
-  vertical-align: middle;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  display: flex;
+  gap: 20px;
 }
 
 .rightSection p {
@@ -90,23 +92,12 @@
 /* Hover effects */
 .navSection ul li:hover {
   color: #007bff;
-  transform: translateY(-2px);       /* small lift effect */
+  transform: scale(1.1);       /* small lift effect */
 }
 
-/* Underline animation on hover */
-.navSection ul li::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  left: 0;
-  bottom: -3px;
-  background-color: #007bff;
-  transition: width 0.3s ease;
-}
-
-.navSection ul li:hover::after {
-  width: 100%;                       /* full underline on hover */
+/* Remove link underline */
+a {
+  text-decoration: none;
 }
 
 /* Responsive layout for small screens */
@@ -123,3 +114,10 @@
     padding: 5px;
   }
 }
+
+
+
+
+
+
+
