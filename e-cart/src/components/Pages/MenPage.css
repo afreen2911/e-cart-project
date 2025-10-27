@@ -1,0 +1,61 @@
+/* Container for all men products */
+.menPagesection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  padding: 40px;
+  background-color: #f5f5f5;      /* Neutral, clean background */
+  justify-items: center;
+}
+
+/* Each men product card */
+.menPageImages {
+  background: #ffffff;
+  border-radius: 12px;             /* Rounded corners */
+  overflow: hidden;
+  max-width: 240px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Men product images */
+.menPageImages img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;               /* Keep image ratio */
+  transition: transform 0.3s ease;
+}
+
+/* Hover effects */
+.menPageImages:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.menPageImages:hover img {
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 600px) {
+  .menPagesection {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .menPageImages img {
+    height: 180px;
+  }
+}
+
+/* Optional: Style the page heading */
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+  color: #333;
+  font-weight: 600;
+}

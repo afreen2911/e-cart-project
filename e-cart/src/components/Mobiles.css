@@ -1,0 +1,50 @@
+/* Container for all mobiles - swipeable carousel */
+.mobilesection {
+  display: flex;               /* Arrange cards horizontally */
+  overflow-x: hidden;            /* Enable horizontal scrolling/swiping */
+  gap: 26px;
+  padding: 20px;
+  scroll-behavior: none;     /* Smooth swipe */
+  background-color: #f8f8f8;
+  justify-content: space-evenly;
+}
+
+.mobilesection::-webkit-scrollbar {
+  display: none;               /* Hide scrollbar for a clean look */
+}
+
+/* Each mobile card */
+.mobileImages {
+  flex: 0 0 auto;              /* Prevent shrinking, fixed width */
+  width: 230px;                /* Fixed width for uniformity */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect */
+.mobileImages:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Mobile image styling - fully visible and fit */
+.mobileImages img {
+  width: 100%;
+  height: auto;          /* Maintain aspect ratio */
+  object-fit: contain;   /* Fit image inside card without cropping */
+  border-radius: 8px;
+  display: block;
+  
+}
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: left;
+    margin: 25px 0 10px 25px;
+    font-weight: 600;
+}

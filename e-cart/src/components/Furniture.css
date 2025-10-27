@@ -1,0 +1,45 @@
+/* Furniture Section Container */
+.furnitureSection {
+  display: flex;                    /* Arrange images in a row */
+  justify-content: space-evenly;          /* Center images */
+  align-items: center;              /* Vertically align */
+  flex-wrap: wrap;                  /* Wrap on smaller screens */
+  gap: 26px;                        /* Space between images */
+  padding: 20px;
+  background-color: #f8f8f8;        /* Light background for contrast */
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Individual Image Container */
+.furnitureImages {
+  width: 250px;
+  height: 220px;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+/* Image Styling */
+.furnitureImages img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;                /* Maintain aspect ratio */
+  border-radius: 16px;
+}
+
+/* Hover Effects */
+.furnitureImages:hover {
+  transform: scale(1.05);           /* Slight zoom effect */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading Style */
+h3 {
+  font-size: 1.5rem;
+  color: #333;
+  text-align: left;
+  margin: 25px 0 10px 25px;
+  font-weight: 600;
+}

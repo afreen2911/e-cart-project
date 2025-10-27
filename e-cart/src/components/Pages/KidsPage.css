@@ -1,0 +1,52 @@
+/* Container for all kids products */
+.kidsPageSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  padding: 40px;
+  background-color: #f0f8ff;        /* Soft baby blue background */
+  justify-items: center;
+}
+
+/* Each kids product card */
+.kidsPageImages {
+  background: #ffffff;
+  border-radius: 14px;              /* Rounded corners */
+  overflow: hidden;
+  max-width: 240px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Kids product images */
+.kidsPageImages img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effects */
+.kidsPageImages:hover {
+  transform: translateY(-6px);       /* Lift card */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.kidsPageImages:hover img {
+  transform: scale(1.05);           /* Zoom image */
+}
+
+/* Responsive for mobile devices */
+@media (max-width: 600px) {
+  .kidsPageSection {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .kidsPageImages img {
+    height: 180px;
+  }
+}

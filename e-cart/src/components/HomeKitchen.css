@@ -1,0 +1,64 @@
+/* ======= Home & Kitchen Section ======= */
+.kitchenSection {
+  display: flex;
+  flex-wrap: wrap;                /* Wrap to next line if needed */
+  justify-content: space-evenly;        /* Center the content */
+  gap: 25px;                      /* Space between items */
+  padding: 30px 10px;
+  background-color: #f9f9f9;      /* Light neutral background */
+  border-radius: 12px;
+}
+
+/* Each image container */
+.kitchenImages {
+  background: #fff;               /* White card look */
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Image styling */
+.kitchenImages img {
+  width: 250px;                   /* Adjust image size */
+  height: 250px;
+  object-fit: cover;              /* Maintain aspect ratio */
+  border-radius: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effects for interaction */
+.kitchenImages:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.kitchenImages img:hover {
+  transform: scale(1.05);
+}
+
+/* Section heading */
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: left;
+    margin: 25px 0 10px 25px;
+    font-weight: 600;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .kitchenImages img {
+    width: 180px;
+    height: 180px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .kitchenSection {
+    gap: 15px;
+  }
+}

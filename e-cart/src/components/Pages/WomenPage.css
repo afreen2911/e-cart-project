@@ -1,0 +1,52 @@
+/* Container for all women products */
+.womanPageSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  padding: 40px;
+  background-color: #fff0f5;       /* Soft pink/lavender for women’s theme */
+  justify-items: center;
+}
+
+/* Each women product card */
+.womanPageImages {
+  background: #ffffff;
+  border-radius: 14px;             /* Rounded corners */
+  overflow: hidden;
+  max-width: 240px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Women product images */
+.womanPageImages img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.womanPageImages:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.womanPageImages:hover img {
+  transform: scale(1.05);
+}
+
+/* Responsive for mobile screens */
+@media (max-width: 600px) {
+  .womanPageSection {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .womanPageImages img {
+    height: 180px;
+  }
+}

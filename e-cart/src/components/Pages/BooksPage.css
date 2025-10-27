@@ -1,0 +1,52 @@
+/* Container for all book items */
+.booksPageSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+  padding: 40px;
+  background-color: #fefefe;         /* clean white background */
+  justify-items: center;
+}
+
+/* Each book card */
+.booksPageImages {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 220px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Book image styling */
+.booksPageImages img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.booksPageImages:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.booksPageImages:hover img {
+  transform: scale(1.05);
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  .booksPageSection {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .booksPageImages img {
+    height: 180px;
+  }
+}

@@ -1,0 +1,42 @@
+/* Main section layout */
+.beautyPageSection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* ✅ Exactly 4 images per row */
+  gap: 20px;
+  padding: 20px 40px;
+  background-color: #f8f9fa;
+}
+
+/* Individual product image container */
+.beautyPageImages {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Image styling */
+.beautyPageImages img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effects */
+.beautyPageImages:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.beautyPageImages:hover img {
+  transform: scale(1.1);
+}
+
+/* Optional: Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

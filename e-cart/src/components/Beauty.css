@@ -1,0 +1,69 @@
+/* ====== Beauty Section Container ====== */
+.beautySection {
+  display: flex;
+  flex-wrap: wrap;               /* Wrap items when screen is small */
+  justify-content: center;       /* Center the cards */
+  gap: 25px;                     /* Space between cards */
+  padding: 30px 10px;
+  background-color: #fff7f9;     /* Soft pinkish tone for beauty theme */
+  border-radius: 12px;
+  justify-content: space-evenly;
+}
+
+/* ====== Each Product Card ====== */
+.beautyImages {
+  background: #ffffff;           /* White card background */
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+/* ====== Product Image Styling ====== */
+.beautyImages img {
+  width: 250px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* ====== Hover Effects ====== */
+.beautyImages:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(255, 105, 180, 0.25);
+}
+
+.beautyImages img:hover {
+  transform: scale(1.06);
+  filter: brightness(1.1);
+}
+
+/* ====== Section Heading ====== */
+h3 {
+  text-align: left;
+  font-size: 26px;
+  font-weight: 600;
+  color: #d63384;                /* Aesthetic pink tone */
+  margin-top: 20px;
+  letter-spacing: 0.6px;
+  
+}
+
+/* ====== Responsive Design ====== */
+@media (max-width: 768px) {
+  .beautyImages img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .beautySection {
+    gap: 15px;
+    padding: 20px 5px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+}

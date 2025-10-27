@@ -1,0 +1,47 @@
+.acPageSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  padding: 30px;
+  background-color: #f9f9f9;
+}
+
+.acPageImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.acPageImages:hover {
+  transform: translateY(-5px);
+}
+
+.acPageImages img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.acModel {
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+  margin-top: 8px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 8px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.acModel:hover {
+  background-color: #f2f2f2;
+  transition: 0.3s ease;
+}
