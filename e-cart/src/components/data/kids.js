@@ -1,7 +1,8 @@
-export const kidsData = [
+export const kidsData = [ 
   {
     "id": "1",
-    "product": "Kids Apparel",
+    "product": "Boys co-od set",
+    "type": "Boys co-od set",
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-apparel-combo/4/t/q/5-6-years-dres01-druzzee-original-imahyggrfb3ahbph.jpeg?q=70",
     "company": "Druzzee",
     "model": "5-6 Years Dress Combo",
@@ -12,6 +13,7 @@ export const kidsData = [
   {
     "id": "2",
     "product": "Kids Ethnic Set",
+    "type": "Boys Ethnic Wear",
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-ethnic-set/d/m/b/0-6-months-na-sp-1-year-ultrina-original-imagzcg5gchuagaa.jpeg?q=70",
     "company": "Ultrina",
     "model": "0-6 Months Ethnic Set",
@@ -22,6 +24,7 @@ export const kidsData = [
   {
     "id": "3",
     "product": "Kids Apparel",
+    "type": "Dress Combo",
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-apparel-combo/9/4/t/3-6-months-t-gf12-purple-aop-girls-mars-infiniti-original-imahgy55ytzh7anh.jpeg?q=70",
     "company": "Mars Infiniti",
     "model": "3-6 Months Dress Combo",
@@ -31,7 +34,8 @@ export const kidsData = [
   },
   {
     "id": "4",
-    "product": "Kids Ethnic Set",
+    "product": "Girls Ethnic Set",
+    "type": "Girls Ethnic Wear",
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-ethnic-set/z/b/t/3-4-years-set-barkatdesigningplanet-original-imah8mrfhxufe3pp.jpeg?q=70",
     "company": "Barkat Designing Planet",
     "model": "3-4 Years Ethnic Set",
@@ -42,6 +46,7 @@ export const kidsData = [
   {
     "id": "5",
     "product": "Kids Dress",
+    "type": "Frock",
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-dress/k/w/t/2-3-years-pari-frock-dress-ds-dresses-original-imaghhv3v5dkvkfm.jpeg?q=70",
     "company": "DS Dresses",
     "model": "Pari Frock Dress 2-3 Years",
@@ -51,7 +56,8 @@ export const kidsData = [
   },
   {
     "id": "6",
-    "product": "Kids Apparel",
+    "product": "Night Wear",
+    "type": "Night suit",
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-apparel-combo/0/v/h/7-8-years-popcorn-purple-paghdal-brothers-original-imahbnmje9hcvg6z.jpeg?q=70",
     "company": "Paghdal Brothers",
     "model": "7-8 Years Dress Combo",
@@ -62,6 +68,7 @@ export const kidsData = [
   {
     "id": "7",
     "product": "Kids Bootie",
+    "type": "Footwear",
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/bootie/z/m/s/0-11-cloud-p-3-fitknot-12-original-imahfb7ga6tcgnqw.jpeg?q=70",
     "company": "FitKnot",
     "model": "0-11 Months Booties",
@@ -72,6 +79,7 @@ export const kidsData = [
   {
     "id": "8",
     "product": "Doll",
+    "type": "Dolls",
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/doll-doll-house/j/7/d/39dd-doll-beautiful-fashion-doll-with-movable-hands-and-legs-msn-original-imaguy4h6sc9yspj.jpeg?q=70",
     "company": "MSN",
     "model": "39DD Fashion Doll",
@@ -82,6 +90,7 @@ export const kidsData = [
   {
     "id": "9",
     "product": "Talking Plant Toy",
+    "type": "Interactive Toy",
     "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/learning-toy/h/9/o/toy-talking-plant-plush-voice-repeat-recording-120-song-totoy-original-imahax3ambs55srp.jpeg?q=70",
     "company": "Totoy",
     "model": "Talking Plant Plush",
@@ -92,6 +101,7 @@ export const kidsData = [
   {
     "id": "10",
     "product": "Puzzle",
+    "type": "Building Blocks",
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/puzzle/i/o/t/100-diy-plastic-building-blocks-for-kids-100-pcs-midhash-original-imah63frjdkp92jk.jpeg?q=70",
     "company": "Midhash",
     "model": "100 DIY Building Blocks",
@@ -102,6 +112,7 @@ export const kidsData = [
   {
     "id": "11",
     "product": "Kids Jacket",
+    "type": "Kids Jacket",
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/e/2/d/12-18-months-no-group1-ddiscount-original-imagw5z49cu2yqbq.jpeg?q=70",
     "company": "No Group1",
     "model": "12-18 Months Jacket",
@@ -112,11 +123,56 @@ export const kidsData = [
   {
     "id": "12",
     "product": "Kids Sweater",
+    "type": "Sweater",
     "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/sweater/a/a/h/6-9-months-frocksweaterset-green-toyific-original-imah2zbwxzau4gx5.jpeg?q=70",
     "company": "Toyific",
     "model": "6-9 Months Sweater Set",
     "price": "11.99",
     "category": "Clothing",
     "description": "Cozy green sweater set for babies aged 6-9 months."
+  },
+  {
+    "id": "13",
+    "product": "Remote Control Car",
+    "type": "Toy Vehicle",
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-control-toy/j/q/e/remote-control-drift-smoke-with-musical-sound-car-toy-for-kids-original-imahgxdhnrtgh7gx.jpeg?q=70",
+    "company": "ToyWorld",
+    "model": "Drift Smoke RC Car",
+    "price": "24.99",
+    "category": "Toys",
+    "description": "Remote control drift car with music and smoke effects for kids."
+  },
+  {
+    "id": "14",
+    "product": "Kids School Bag",
+    "type": "Accessories",
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/bag/k/3/a/41-kids-stylish-junior-school-bag-backpacks-cartoon-boy-girl-original-imahbakjyjzkbyew.jpeg?q=70",
+    "company": "Junior Bags",
+    "model": "Cartoon School Bag",
+    "price": "10.99",
+    "category": "Accessories",
+    "description": "Stylish and lightweight cartoon school bag for boys and girls."
+  },
+  {
+    "id": "15",
+    "product": "Baby Cradle",
+    "type": "Furniture",
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/crib-cradle/u/v/u/54-kdarbu-cradle-kiddery-92-original-imahfmz4krzpwvgv.jpeg?q=70",
+    "company": "Kiddery",
+    "model": "Kdarbu Baby Cradle",
+    "price": "49.99",
+    "category": "Furniture",
+    "description": "Comfortable cradle with sturdy design for newborn babies."
+  },
+  {
+    "id": "16",
+    "product": "Baby Bedding Set",
+    "type": "Bedding",
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/bedding-set/n/k/7/baby-bedding-mosquito-net-baby-bed-baby-bedding-folding-mosquito-original-imah3v9zbz2ufg5h.jpeg?q=70",
+    "company": "BabySleep",
+    "model": "Folding Bedding Set",
+    "price": "22.99",
+    "category": "Bedding",
+    "description": "Foldable baby bedding with mosquito net for safe and cozy sleep."
   }
 ];

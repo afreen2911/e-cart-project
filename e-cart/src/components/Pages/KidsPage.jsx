@@ -10,8 +10,12 @@ const KidsPage = () => {
       {
         kidsData.map((item)=>{
             return(
-                <div className="kidsPageImages">
+                <div className="kidsItemContainer">
+                  <div className="kidsPageCard">
                     <img src={item.image} alt="" />
+                  </div>
+                  <h3 className='kidsProductName'>{item.product}
+                  </h3>
                 </div>
             )
         })
