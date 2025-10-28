@@ -7,13 +7,18 @@ const WatchesPage = () => {
   return (
     <>
     <Navbar/>
-      <div className='WatchesPageSection'>
+      <div className='watchPageSection'>
             {
               watchData.map((item)=>{
                   return(
-                      <div className="watchPageImages">
+                    <div className="watchItemContainer">
+                      <div className="watchPageCard">
                           <img src={item.image} alt="" />
                       </div>
+                      <h3 className='watchProductName'>{item.brand}</h3>
+                    </div>
+
+                      
                   )
               })
             }
