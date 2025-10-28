@@ -9,13 +9,13 @@ export const beautyData = [
     "description": "All-in-one makeup kit with foundation, eyeshadow, lipstick, and blush for a perfect look."
   },
   {
-    "id": "2",
-    "product": "Makeup Kit Combo",
-    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/makeup-kit/y/p/j/-original-imah4c3cfbfga5kg.jpeg?q=70",
-    "company": "Sugar Pop",
-    "price": "899.00",
-    "category": "Beauty",
-    "description": "Professional makeup combo kit for daily and party looks with long-lasting finish."
+    "id": "18",
+    "product": "Beetroot Lip Balm",
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/lip-balm/t/4/i/2-0-beetroot-tinted-100-natural-lip-balm-with-beetroot-beeswax-original-imahckwu3hdptyhd.jpeg?q=70",
+    "company": "TNW",
+    "price": "199.00",
+    "category": "Skincare",
+    "description": "100% natural beetroot lip balm with beeswax for soft and tinted lips."
   },
   {
     "id": "3",
@@ -127,12 +127,12 @@ export const beautyData = [
   },
   {
     "id": "15",
-    "product": "Pedicure Tool Kit",
-    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/nail-clipper-cutter/y/q/0/16-in-1-stainless-steel-manicure-and-pedicure-tools-kits-set-set-original-imah9ud4dnhy5rzg.jpeg?q=70",
-    "company": "Nysa",
-    "price": "499.00",
-    "category": "Beauty Tools",
-    "description": "Multi-purpose stainless steel kit for manicure and pedicure grooming needs."
+    "product": "Makeup Vanity Box",
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/vanity-box/6/o/2/-original-imah4h2kjn9ey9zf.jpeg?q=70",
+    "company": "Miniso",
+    "price": "999.00",
+    "category": "Accessories",
+    "description": "Stylish vanity box for makeup, jewelry, and travel organization."
   },
   {
     "id": "16",
@@ -142,23 +142,5 @@ export const beautyData = [
     "price": "699.00",
     "category": "Accessories",
     "description": "3-piece vanity wash bag set for makeup and travel essentials storage."
-  },
-  {
-    "id": "17",
-    "product": "Makeup Vanity Box",
-    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/vanity-box/6/o/2/-original-imah4h2kjn9ey9zf.jpeg?q=70",
-    "company": "Miniso",
-    "price": "999.00",
-    "category": "Accessories",
-    "description": "Stylish vanity box for makeup, jewelry, and travel organization."
-  },
-  {
-    "id": "18",
-    "product": "Beetroot Lip Balm",
-    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/lip-balm/t/4/i/2-0-beetroot-tinted-100-natural-lip-balm-with-beetroot-beeswax-original-imahckwu3hdptyhd.jpeg?q=70",
-    "company": "TNW",
-    "price": "199.00",
-    "category": "Skincare",
-    "description": "100% natural beetroot lip balm with beeswax for soft and tinted lips."
   }
 ]
