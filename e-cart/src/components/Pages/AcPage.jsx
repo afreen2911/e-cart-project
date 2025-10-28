@@ -13,12 +13,15 @@ const AcPage = () => {
       {
         acData.map((item)=>{
             return(
-              <>
-                <div className="acPageImages">
+              <div className="acItemContainer">
+                <div className="acPageCard">
                     <img src={item.image} alt="" />
                 </div>
+                <h3 className='acProductName'>{item.company}</h3>
+              </div>
                 
-                </>
+                
+                
             )
         })
       }

@@ -1,47 +1,96 @@
+/* acPage.css */
+
 .acPageSection {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 25px;
-  padding: 30px;
-  background-color: #f9f9f9;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px;
+  background-color: #f5f5f5;      /* Neutral, clean background */
+
 }
 
-.acPageImages {
+.acItemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+  transition: transform 0.2s ease;
+}
+
+.acItemContainer:hover {
+  transform: translateY(-4px) scale(1.03);
+}
+
+.acPageCard {
+  width: 270px;
+  height: 270px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.07);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  transition: transform 0.3s ease;
+  margin-bottom: 8px;
 }
 
-.acPageImages:hover {
-  transform: translateY(-5px);
-}
-
-.acPageImages img {
-  width: 100%;
-  height: 220px;
+.acPageCard img {
+  max-width: 95%;
+  max-height: 90%;
   object-fit: contain;
-  padding: 10px;
-  background-color: #fff;
+  border-radius: 10px;
+  transition: box-shadow 0.25s;
 }
 
-.acModel {
-  text-align: center;
-  font-size: 1rem;
-  color: #333;
+.acItemContainer:hover .acPageCard img {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.14);
+}
+
+.acProductName {
+  font-size: 1.08rem;
   font-weight: 500;
-  margin-top: 8px;
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 8px 0;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  color: #374151;
+  letter-spacing: .03em;
+  margin: 0;
+  padding: 2px 0;
+  text-align: center;
+}
+/* For tablets (2 images per row) */
+@media (max-width: 1024px) and (min-width: 601px) {
+  .acPageSection {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .acPageCard {
+    width: 240px;
+    height: 240px;
+  }
+
+  .acProductName {
+    font-size: 1rem;
+  }
 }
 
-.acModel:hover {
-  background-color: #f2f2f2;
-  transition: 0.3s ease;
+/* For ac phones (1 image per row) */
+@media (max-width: 600px) {
+  .acPageSection {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .acPageCard {
+    width: 50%;
+    height: 230px;
+    margin: 5 auto; /* centers image card */
+  }
+
+  .acProductName {
+    font-size: 0.98rem;
+    font-weight: bold;
+    text-align: center;
+  }
 }
