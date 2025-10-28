@@ -1,52 +1,96 @@
-/* Container for all kitchen items */
+
 .kitchenPageSection {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 25px;
-  padding: 40px;
-  background-color: #fffaf0;           /* Soft cream background */
-  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px;
+  background-color: #f5f5f5; /* clean background */
 }
 
-/* Each kitchen product card */
-.kitchenPageImages {
-  background: #ffffff;
-  border-radius: 14px;                  /* Rounded corners */
+.kitchenItemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+  transition: transform 0.2s ease;
+}
+
+.kitchenItemContainer:hover {
+  transform: translateY(-4px) scale(1.03);
+}
+
+.kitchenPageCard {
+  width: 270px;
+  height: 270px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
-  max-width: 260px;
-  width: 100%;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
+  margin-bottom: 8px;
 }
 
-/* Kitchen product image */
-.kitchenPageImages img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;                    /* Keep aspect ratio */
-  transition: transform 0.3s ease;
+.kitchenPageCard img {
+  width: 90%;
+  height: 90%;
+  object-fit: fill; /* Ensures same image size look */
+  border-radius: 15px;
+  transition: box-shadow 0.25s;
 }
 
-/* Hover effect for interactivity */
-.kitchenPageImages:hover {
-  transform: translateY(-6px);         /* Lift card on hover */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+.kitchenItemContainer:hover .kitchenPageCard img {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
 }
 
-.kitchenPageImages:hover img {
-  transform: scale(1.05);              /* Slight zoom effect */
+.kitchenProductName {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500; /* medium weight */
+  color: #374151;
+  letter-spacing: 0.3px;
+  margin: 0;
+  padding: 2px 0;
+  text-align: center;
 }
 
-/* Responsive for small screens */
+/* For tablets (2 images per row) */
+@media (max-width: 1024px) and (min-width: 601px) {
+  .kitchenPageSection {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .kitchenPageCard {
+    width: 240px;
+    height: 240px;
+  }
+
+  .kitchenProductName {
+    font-size: 1rem;
+  }
+}
+
+/* For mobile phones (1 image per row) */
 @media (max-width: 600px) {
   .kitchenPageSection {
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 15px;
+    grid-template-columns: 1fr;
+    gap: 16px;
     padding: 20px;
   }
 
-  .kitchenPageImages img {
-    height: 200px;
+  .kitchenPageCard {
+    width: 60%;
+    height: 230px;
+    margin: 0 auto; /* centers image card */
+  }
+
+  .kitchenProductName {
+    font-size: 0.98rem;
+    font-weight: 600;
+    text-align: center;
   }
 }

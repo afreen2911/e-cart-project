@@ -11,9 +11,13 @@ const HomeKitchenPage = () => {
       {
         kitchenData.map((item)=>{
             return(
-                <div className="kitchenPageImages">
+              <div className="kitchenItemContainer">
+                <div className="kitchenPageCard">
                     <img src={item.image} alt="" />
                 </div>
+                <h3>{item.type}</h3>
+              </div>
+                
             )
         })
       }
