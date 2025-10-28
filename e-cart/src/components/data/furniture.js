@@ -12,7 +12,7 @@ export const furnitureData = [{
     {
         "id": "2",
         "product": "Furniture",
-        "image": "/Assets/Furniture/2.jpg",
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/dining-set/i/p/t/114-grey-0-0-rubber-wood-56-4-rectangle-44-81-36-70-4-seater-114-original-imah46zg62fw2gq7.jpeg?q=70",
         "type": "Dining Table",
         "brand": "Wayfair",
         "model": "ElegantDine",
@@ -23,7 +23,7 @@ export const furnitureData = [{
     {
         "id": "3",
         "product": "Furniture",
-        "image": "/Assets/Furniture/3.jpg",
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/bed/o/y/s/-original-imahgn9rdnjpzr8y.jpeg?q=70",
         "type": "Bed",
         "brand": "Ashley ",
         "model": "DreamRest",
@@ -34,7 +34,7 @@ export const furnitureData = [{
     {
         "id": "4",
         "product": "Furniture",
-        "image": "/Assets/Furniture/4.jpg",
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/coffee-table/2/k/9/55-mdf-55-7-bult-tbl-w-online-decor-shoppee-45-white-original-imahfxbgp577xjhu.jpeg?q=70",
         "type": "Coffee Table",
         "brand": "West Elm",
         "model": "ModernBlend",
@@ -45,7 +45,7 @@ export const furnitureData = [{
     {
         "id": "5",
         "product": "Furniture",
-        "image": "/Assets/Furniture/5.jpg",
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/wardrobe-closet/q/x/z/-original-imahft7mj2gucfhn.jpeg?q=70",
         "type": "Wardrobe",
         "brand": "Houzz",
         "model": "SpaceSaver",
@@ -56,7 +56,7 @@ export const furnitureData = [{
     {
         "id": "6",
         "product": "Furniture",
-        "image": "/Assets/Furniture/6.jpg",
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/book-shelf/5/o/v/24-particle-board-61-12-3-lbs-4t-wenge-ew-91-flowery-wenge-4-original-imahgv5fcnmjhgj5.jpeg?q=70",
         "type": "Bookshelf",
         "brand": "Crate & Barrel",
         "model": "BookHaven",
@@ -67,7 +67,7 @@ export const furnitureData = [{
     {
         "id": "7",
         "product": "Furniture",
-        "image": "/Assets/Furniture/7.jpg",
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/office-study-table/y/5/l/particle-board-engineered-wood-sm-ot-prism-dw-sivom-dark-wenge-original-imagvkyaujuznthz.jpeg?q=70",
         "type": "Desk",
         "brand": "Staples",
         "model": "WorkPro",
@@ -78,7 +78,7 @@ export const furnitureData = [{
     {
         "id": "8",
         "product": "Furniture",
-        "image": "/Assets/Furniture/8.jpg",
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/bar-stool-chair/5/y/i/1-brown-carbon-steel-20-6-bar-stool-pack-of-1-seatfit-brown-40-5-original-imahfmycjzecxhpv.jpeg?q=70",
         "type": "Bar Stool",
         "brand": "Target",
         "model": "UrbanChic",
@@ -89,7 +89,7 @@ export const furnitureData = [{
     {
         "id": "9",
         "product": "Furniture",
-        "image": "/Assets/Furniture/9.jpg",
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/dressing-table/g/m/u/20-30-mdf-60-multipirpose-mirror-wall-shelf-white-soami-crafts-original-imagmchrgbpqxjhg.jpeg?q=70",
         "type": "Dresser",
         "brand": "Pottery Barn",
         "model": "RusticCharm",
@@ -100,7 +100,7 @@ export const furnitureData = [{
     {
         "id": "10",
         "product": "Furniture",
-        "image": "/Assets/Furniture/10.jpg",
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/sofa-sectional/n/8/6/symmetrical-91-green-i-218-cotton-blend-no-20-wooden-cloud-sofa-original-imahdreqjffyyxmk.jpeg?q=70",
         "type": "Couch",
         "brand": "Crate & Barrel",
         "model": "ComfyLounge",
@@ -111,7 +111,7 @@ export const furnitureData = [{
     {
         "id": "11",
         "product": "Furniture",
-        "image": "/Assets/Furniture/11.jpg",
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/side-table/x/m/f/50-wrought-iron-50-3-dbl-top-golden-white-bedside-table-rahat-original-imahfrcwxykpbkdd.jpeg?q=70",
         "type": "Side Table",
         "brand": "CB2",
         "model": "MinimalistSide",
@@ -122,7 +122,7 @@ export const furnitureData = [{
     {
         "id": "12",
         "product": "Furniture",
-        "image": "/Assets/Furniture/12.jpg",
+        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/side-table/1/c/0/45-0-particle-board-40-0-8-0-004-bedside-table-flipkart-perfect-original-imahfhsvpfwtvyv4.jpeg?q=70",
         "type": "Bedside Table",
         "brand": "Ethan Allen",
         "model": "ClassicNight",

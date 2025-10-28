@@ -12,9 +12,15 @@ const FurniturePage = () => {
         
         furnitureData.map((item)=>{
             return(
-                <div className="furniturePageImages">
+              <div className="watchItemContainer">
+                <div className="furniturePageCard">
                     <img src={item.image} alt="" />
                 </div>
+                <h3 className='furnitureProductName'>
+                  {item.type}
+                </h3>
+                </div>
+                
             )
         })
       }
