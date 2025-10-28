@@ -8,25 +8,22 @@ const MenPage = () => {
   return (
     <>
     <Navbar/>
-    
-    <>
-    <h2>Men</h2>
-    <div className='menPagesection'>
-       {
+    <div className='menPageSection'>
+      {
         menData.map((item)=>{
             return(
-              <><div className='menPageImages'>
+              <div className="menItemContainer">
+                <div className='menPageCard'>
                 <img src={item.image}  />
                 </div>
-                <div className="menProductName">
-                  <h3>{item.product}</h3>
-                </div>
-            </>
+                  <h3 className="menProductName">
+            {item.type}
+            </h3>
+              </div>
             )
         })
       }
     </div>
-    </>
     </>
   )
 }

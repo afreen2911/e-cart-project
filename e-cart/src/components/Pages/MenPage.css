@@ -1,61 +1,96 @@
-/* Container for all men products */
-.menPagesection {
+
+.menPageSection {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 25px;
-  padding: 40px;
-  background-color: #f5f5f5;      /* Neutral, clean background */
-  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px;
+  background-color: #f5f5f5; /* clean background */
 }
 
-/* Each men product card */
-.menPageImages {
-  background: #ffffff;
-  border-radius: 12px;             /* Rounded corners */
+.menItemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+  transition: transform 0.2s ease;
+}
+
+.menItemContainer:hover {
+  transform: translateY(-4px) scale(1.03);
+}
+
+.menPageCard {
+  width: 270px;
+  height: 270px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
-  max-width: 240px;
-  width: 100%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
+  margin-bottom: 8px;
 }
 
-/* Men product images */
-.menPageImages img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;               /* Keep image ratio */
-  transition: transform 0.3s ease;
+.menPageCard img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover; /* Ensures same image size look */
+  border-radius: 10px;
+  transition: box-shadow 0.25s;
 }
 
-/* Hover effects */
-.menPageImages:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+.menItemContainer:hover .menPageCard img {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
 }
 
-.menPageImages:hover img {
-  transform: scale(1.05);
+.menProductName {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500; /* medium weight */
+  color: #374151;
+  letter-spacing: 0.3px;
+  margin: 0;
+  padding: 2px 0;
+  text-align: center;
 }
 
-/* Responsive adjustments for mobile screens */
+/* For tablets (2 images per row) */
+@media (max-width: 1024px) and (min-width: 601px) {
+  .menPageSection {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .menPageCard {
+    width: 240px;
+    height: 240px;
+  }
+
+  .menProductName {
+    font-size: 1rem;
+  }
+}
+
+/* For mobile phones (1 image per row) */
 @media (max-width: 600px) {
-  .menPagesection {
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 15px;
+  .menPageSection {
+    grid-template-columns: 1fr;
+    gap: 16px;
     padding: 20px;
   }
 
-  .menPageImages img {
-    height: 180px;
+  .menPageCard {
+    width: 80%;
+    height: 230px;
+    margin: 0 auto; /* centers image card */
   }
-}
 
-/* Optional: Style the page heading */
-h2 {
-  text-align: center;
-  font-size: 2rem;
-  margin-top: 20px;
-  color: #333;
-  font-weight: 600;
+  .menProductName {
+    font-size: 0.98rem;
+    font-weight: 600;
+    text-align: center;
+  }
 }
