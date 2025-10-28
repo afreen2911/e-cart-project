@@ -10,9 +10,13 @@ const RefrigeratorPage = () => {
       {
         fridgeData.map((item)=>{
             return(
-                <div className="fridgePageImages">
+              <div className="fridgeItemContainer">
+                <div className="fridgePageCard">
                     <img src={item.image} alt="" />
                 </div>
+                <h3 className='fridgeProductName'>{item.brand}</h3>
+              </div>
+                
             )
         })
       }
