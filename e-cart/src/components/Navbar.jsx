@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div className='navSection'>
-        <div className="title">E-Cart</div>
+        <div className="title">E - Cart</div>
         <div className="middlesection">
             <input type="text" className='search' placeholder='Search...'/>
         </div>

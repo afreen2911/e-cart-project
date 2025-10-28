@@ -83,14 +83,14 @@
   }
 
   .kidsPageCard {
-    width: 80%;
+    width: 60%;
     height: 230px;
     margin: 0 auto; /* centers image card */
   }
 
   .kidsProductName {
     font-size: 0.98rem;
-    font-weight: 600;
+    font-weight: 300;
     text-align: center;
   }
 }
