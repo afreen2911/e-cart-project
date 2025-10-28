@@ -82,13 +82,13 @@
     padding: 20px;
   }
 
-  .tvPageCard {
+  .womenPageCard {
     width: 50%;
     height: 230px;
     margin: 5 auto; /* centers image card */
   }
 
-  .tvProductName {
+  .womenProductName {
     font-size: 0.98rem;
     font-weight: bold;
     text-align: center;

@@ -8,13 +8,19 @@ const ComputersPage = () => {
     <>
     <Navbar/>
     
-     <div className='ComputerPageSection'>
+     <div className='computerPageSection'>
       {
         computerData.map((item)=>{
             return(
-                <div className="ComputerPageImages">
+              <div className="computerItemContainer">
+                <div className="computerPageCard">
                     <img src={item.image} alt="" />
                 </div>
+                <h3 className='computerProductName'>
+                  {item.company}
+                  </h3>
+              </div>
+                
             )
         })
       }
