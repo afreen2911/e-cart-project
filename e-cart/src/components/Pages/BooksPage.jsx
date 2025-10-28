@@ -6,13 +6,17 @@ const BooksPage = () => {
   return (
     <>
     <Navbar/>
-    <div className='booksPageSection'>
+    <div className='bookPageSection'>
       {
         booksData.map((item)=>{
             return(
-                <div className="booksPageImages">
+              <div className="bookItemContainer">
+                <div className="bookPageCard">
                     <img src={item.image} alt="" />
                 </div>
+                <h3 className='bookProductName'>{item.title}</h3>
+              </div>
+                
             )
         })
       }
