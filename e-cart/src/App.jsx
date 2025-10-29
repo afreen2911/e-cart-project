@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 import { Route,Routes } from 'react-router-dom'
 import Landingpage from './components/Pages/Landingpage'
 import MobilesPage from './components/Pages/MobilesPage'
@@ -16,6 +17,7 @@ import ComputersPage from './components/Pages/ComputersPage'
 import WatchesPage from './components/Pages/WatchesPage'
 import SpeakersPage from './components/Pages/SpeakersPage'
 import BeautyPage from './components/Pages/BeautyPage'
+import MobileSingle from './singles/MobileSingle'
 
 
 const App = () => {
@@ -38,7 +40,7 @@ const App = () => {
         <Route path='/acpage' element={<AcPage />} />
         <Route path='/speakerspage' element={<SpeakersPage  />} />
         <Route path='/beautypage' element={<BeautyPage />} />
-        
+        <Route path='/mobilespage/:id' element={<MobileSingle/>} />
        </Routes>
     </div>
   )

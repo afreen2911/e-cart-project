@@ -1,168 +1,165 @@
 export const mobileData = [
     {
-        "id": "1",
-        "product": "Mobile",
-        "image": "/Assets/NewMobile/1.png",
-        "company": "Apple",
-        "model": "iPhone 13 Pro",
-        "price": "1099.00",
-        "category": "Electronics",
-        "description": "The latest iPhone model with advanced camera capabilities and powerful performance."
-    },
+ "id": "1",
+  "company": "Apple",
+  "model": "iPhone 16 (White, 128 GB)",
+  "price": "₹69,999",
+  "description": "Flagship Apple iPhone 16 with A18 chip, 48 MP dual-camera & USB-C.",
+  "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/u/i/-original-imahgfmyczqxhtm2.jpeg?q=70",
+  "product": "mobile",
+  "category": "Smartphone"
+},
     {
         "id": "2",
-        "product": "Mobile",
-        "image": "/Assets/NewMobile/2.jpg",
-        "company": "Samsung",
-        "model": "Galaxy Z Fold 3",
-        "price": "1799.00",
-        "category": "Electronics",
-        "description": "A foldable smartphone with a large display and multitasking features."
+  "company": "Google",
+  "model": "Pixel 10 (Obsidian, 256 GB)",
+  "price": "₹79,999",
+  "description": "Flagship Google Pixel 10 with Tensor G5 chip, 12 GB RAM + 256 GB storage and advanced camera system.",
+  "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/o/b/-original-imahfjsftzhymazf.jpeg?q=70",
+  "product": "mobile",
+  "category": "Smartphone"
     },
     {
-        "id": "3",
-        "product": "Mobile",
-        "image": "/Assets/NewMobile/3.jpg",
-        "company": "Google",
-        "model": "Pixel 6",
-        "price": "799.99",
-        "category": "Electronics",
-        "description": "A Google Pixel phone with exceptional camera quality and the latest Android features."
+    "id": "3",
+    "company": "Google",
+    "model": "Pixel 9a (Porcelain, 256 GB)",
+    "price": "₹44,999",  
+    "description": "Google Pixel 9a with 8 GB RAM, 256 GB storage, 48 MP + 13 MP dual-camera and Tensor G4 chip.",  
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/0/q/f/-original-imahadxg8mgjzrfh.jpeg?q=70",
+    "product": "mobile",
+    "category": "Smartphone"
+  },
+  {
+    "id": "4",
+    "company": "POCO",
+    "model": "C71 (Cool Blue, 128 GB)",
+    "price": "₹6,799",  
+    "description": "POCO C71 budget mobile with 6 GB RAM, 128 GB storage, 6.88″ HD+ display and 5,200 mAh battery.",  
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/r/5/z/-original-imahawgarmg5f8ff.jpeg?q=70",
+    "product": "mobile",
+    "category": "Smartphone"
+  },
+    {
+       "id": "5",
+  "company": "Samsung",
+  "model": "Galaxy F06 5G (Bahama Blue, 64 GB)",
+  "price": "₹8,099",
+  "description": "Samsung Galaxy F06 5G with 50 MP dual-camera, 6.7″ HD+ display, and 5000 mAh battery.",
+  "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/v/o/d/-original-imahfvrmfkwybeyc.jpeg?q=70",
+  "product": "mobile",
+  "category": "Smartphone"
     },
     {
-        "id": "4",
-        "product": "Mobile",
-        "image": "/Assets/NewMobile/4.jpg",
-        "company": "OnePlus",
-        "model": "9 Pro",
-        "price": "899.00",
-        "category": "Electronics",
-        "description": "A flagship OnePlus phone known for its smooth performance and fast charging."
-    },
+  "id": "6",
+  "company": "Oppo",
+  "model": "K13x 5G (Sunset Peach, 128 GB)",
+  "price": "₹13,999",
+  "description": "Oppo K13x 5G features a 6,000 mAh battery, 45 W SuperVOOC charging, and AI-powered camera for smooth performance and long battery life.",
+  "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/s/r/y/-original-imahfw4vez79uubg.jpeg?q=70",
+  "product": "mobile",
+  "category": "Smartphone"
+},
+{
+  "id": "7",
+  "company": "Ai",
+  "model": "Pulse Blue (64 GB)",
+  "price": "₹6,499",
+  "description": "AI Pulse Blue offers a bright HD+ display, efficient processor, and long-lasting battery, perfect for everyday mobile use.",
+  "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/z/h/v/-original-imahgzhp9vgvyfkg.jpeg?q=70",
+  "product": "mobile",
+  "category": "Smartphone"
+},
+   {
+  "id": "8",
+  "company": "Vivo",
+  "model": "T4 Lite 5G (Prism Blue, 256 GB)",
+  "price": "₹15,499",
+  "description": "Vivo T4 Lite 5G comes with a stylish Prism Blue design, 5G connectivity, large 256 GB storage, and smooth performance with long battery life.",
+  "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/l/w/0/-original-imahfkx4pbdh5pff.jpeg?q=70",
+  "product": "mobile",
+  "category": "Smartphone"
+},
+{
+  "id": "9",
+  "company": "Motorola",
+  "model": "G96 5G (Pantone Cattleya Orchid, 128 GB)",
+  "price": "₹14,999",
+  "description": "Motorola G96 5G offers smooth 5G performance, a vivid display, strong battery backup, and elegant Pantone Cattleya Orchid finish.",
+  "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/c/p/-original-imahgqnz7w9vazdb.jpeg?q=70",
+  "product": "mobile",
+  "category": "Smartphone"
+},
     {
-        "id": "5",
-        "product": "Mobile",
-        "image": "/Assets/NewMobile/5.jpg",
-        "company": "Xiaomi",
-        "model": "Mi 11 Ultra",
-        "price": "999.50",
-        "category": "Electronics",
-        "description": "A high-spec Xiaomi phone with a versatile camera system and powerful hardware."
-    },
+  "id": "10",
+  "company": "Realme",
+  "model": "C61 (Marble Black, 64 GB)",
+  "price": "₹7,999",
+  "description": "Realme C61 offers a durable build, sleek Marble Black finish, efficient performance, and reliable battery life at an affordable price.",
+  "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/v/z/-original-imah28xpzzwz4fwg.jpeg?q=70",
+  "product": "mobile",
+  "category": "Smartphone"
+},
+{
+  "id": "11",
+  "company": "Redmi",
+  "model": "A4 5G (Sparkle Purple, 64 GB)",
+  "price": "₹9,499",
+  "description": "Redmi A4 5G provides fast 5G connectivity, a beautiful Sparkle Purple design, smooth performance, and dependable battery support.",
+  "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/c/z/a4-5g-a4-5g-redmi-original-imah6yhdqpgfw36t.jpeg?q=70",
+  "product": "mobile",
+  "category": "Smartphone"
+},
     {
-        "id": "6",
-        "product": "Mobile",
-        "image": "/Assets/NewMobile/6.jpg",
-        "company": "Sony",
-        "model": "Xperia 1 III",
-        "price": "1199.00",
-        "category": "Electronics",
-        "description": "A Sony Xperia phone with a 4K display and pro-level camera features."
-    },
+  "id": "12",
+  "company": "Infinix",
+  "model": "Note 50X 5G (Enchanted Purple, 128 GB)",
+  "price": "₹10,999",
+  "description": "Infinix Note 50X 5G features a vibrant Enchanted Purple design, 45W fast charging, AI camera setup, and strong 5G performance for smooth multitasking.",
+  "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/q/h/-original-imahfs9yxq3xrykn.jpeg?q=70",
+  "product": "mobile",
+  "category": "Smartphone"
+},
+{
+  "id": "13",
+  "company": "iQOO",
+  "model": "Z10 Lite 5G (Cyber Green, 256 GB)",
+  "price": "₹13,999",
+  "description": "iQOO Z10 Lite 5G comes with a powerful chipset, immersive display, large storage, and stylish Cyber Green color, offering premium performance at great value.",
+  "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/4/7/w/z10-lite-5g-i2409-iqoo-original-imahh6acqhjatyuw.jpeg?q=70",
+  "product": "mobile",
+  "category": "Smartphone"
+},
     {
-        "id": "7",
-        "product": "Mobile",
-        "image": "/Assets/NewMobile/7.jpg",
-        "company": "LG",
-        "model": "G9 ThinQ",
-        "price": "749.00",
-        "category": "Electronics",
-        "description": "An LG smartphone with AI-enhanced features and a sleek design."
-    },
-    {
-        "id": "8",
-        "product": "Mobile",
-        "image": "/Assets/NewMobile/8.jpg",
-        "company": "Motorola",
-        "model": "Edge 20",
-        "price": "599.99",
-        "category": "Electronics",
-        "description": "A Motorola Edge phone with 5G capabilities and a high-refresh-rate display."
-    },
-    {
-        "id": "9",
-        "product": "Mobile",
-        "image": "/Assets/NewMobile/9.jpg",
-        "company": "Huawei",
-        "model": "P50 Pro",
-        "price": "1299.00",
-        "category": "Electronics",
-        "description": "A Huawei flagship phone with advanced camera technology and sleek aesthetics."
-    },
-    {
-        "id": "10",
-        "product": "Mobile",
-        "image": "/Assets/NewMobile/10.jpg",
-        "company": "Oppo",
-        "model": "Find X5 Pro",
-        "price": "899.50",
-        "category": "Electronics",
-        "description": "An Oppo Find X phone with innovative design and impressive camera features."
-    },
-    {
-        "id": "11",
-        "product": "Mobile",
-        "image": "/Assets/NewMobile/11.jpg",
-        "company": "Nokia",
-        "model": "8.4 5G",
-        "price": "549.00",
-        "category": "Electronics",
-        "description": "A Nokia smartphone with 5G connectivity and a focus on reliability."
-    },
-    {
-        "id": "12",
-        "product": "Mobile",
-        "image": "/Assets/NewMobile/12.jpg",
-        "company": "Realme",
-        "model": "GT Master Edition",
-        "price": "379.99",
-        "category": "Electronics",
-        "description": "A Realme phone designed in collaboration with a renowned designer, featuring a unique aesthetic."
-    },
+  "id": "14",
+  "company": "Nothing",
+  "model": "Phone 3a (Black, 128 GB)",
+  "price": "₹23,999",
+  "description": "Nothing Phone 3a features a clean design, transparent back, powerful Snapdragon processor, and stunning OLED display with a smooth 120Hz refresh rate.",
+  "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/1/o/x/-original-imahcfcf2hdeqea5.jpeg?q=70",
+  "product": "mobile",
+  "category": "Smartphone",
+  "link": "https://www.flipkart.com/nothing-phone-3a-black-128-gb/p/itm49557c5a65f9c?pid=MOBH8G3P6UXPEFSZ"
+},
+{
+  "id": "15",
+  "company": "Tecno",
+  "model": "Pop 9 5G (Midnight Shadow, 128 GB)",
+  "price": "₹8,999",
+  "description": "Tecno Pop 9 5G delivers smooth performance with its 5G capability, elegant Midnight Shadow design, and reliable battery life for everyday use.",
+  "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/s/l/-original-imahe3emgs5wrghc.jpeg?q=70",
+  "product": "mobile",
+  "category": "Smartphone",
+  "link": "https://www.flipkart.com/tecno-pop-9-5g-midnight-shadow-128-gb/p/itm76579098435d9?pid=MOBHCGHWWWHZZZYG"
+},
+   {
+  "id": "16",
+  "company": "Apple",
+  "model": "iPhone 14 (Starlight, 128 GB)",
+  "price": "₹52,999",
+  "description": "Apple iPhone 14 with 6.1″ Super Retina XDR display, A15 Bionic chip and dual 12 MP camera system.",  
+  "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/o/b/-original-imaghx9qkugtbfrn.jpeg?q=70",
+  "product": "mobile",
+  "category": "Smartphone"
+}
 
-    /* ---------- Newly added Flipkart products ---------- */
-    {
-        "id": "13",
-        "product": "Mobile",
-        "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/o/j/d/-original-imahgy25zuwqzzye.jpeg?q=70",
-        "company": "POCO",
-        "model": "C71 Cool Blue (128 GB)",
-        "price": "8,499.00",
-        "category": "Electronics",
-        "description": "POCO C71 with 128GB storage and long-lasting battery for budget users.",
-        "link": "https://www.flipkart.com/poco-c71-cool-blue-128-gb/p/itmfb10bdbf02c6e"
-    },
-    {
-        "id": "14",
-        "product": "Mobile",
-        "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/o/j/d/-original-imahgy25zuwqzzye.jpeg?q=70",
-        "company": "Samsung",
-        "model": "Galaxy A35 5G (Awesome Lilac, 128 GB)",
-        "price": "28,999.00",
-        "category": "Electronics",
-        "description": "Samsung Galaxy A35 5G with AMOLED display and 50MP triple camera setup.",
-        "link": "https://www.flipkart.com/samsung-galaxy-a35-5g-awesome-lilac-128-gb/p/itm5a31476ca6a35"
-    },
-    {
-        "id": "15",
-        "product": "Mobile",
-        "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/o/j/d/-original-imahgy25zuwqzzye.jpeg?q=70",
-        "company": "Motorola",
-        "model": "Edge 60 Pro (Pantone Shadow, 256 GB)",
-        "price": "29,999.00",
-        "category": "Electronics",
-        "description": "Motorola Edge 60 Pro with Snapdragon processor and 144Hz display.",
-        "link": "https://www.flipkart.com/motorola-edge-60-pro-pantone-shadow-256-gb/p/itme4f8c6dd0e2db"
-    },
-    {
-        "id": "16",
-        "product": "Mobile",
-        "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/q/e/note-50s-5g-x6870-infinix-original-imahed76uqznguef.jpeg?q=70",
-        "company": "Infinix",
-        "model": "Note 50s 5G (X6870)",
-        "price": "14,999.00",
-        "category": "Electronics",
-        "description": "Infinix Note 50s 5G with powerful performance and premium design.",
-        "link": "https://www.flipkart.com/infinix-note-50s-5g-x6870/p/itmf3d2d9990d7a3"
-    }
 ];

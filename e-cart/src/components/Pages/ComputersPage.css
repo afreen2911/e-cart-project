@@ -1,4 +1,4 @@
-/* mobilePage.css */
+/* computerPage.css */
 
 .computerPageSection {
   display: grid;
@@ -11,7 +11,7 @@
 
 }
 
-.mobileItemContainer {
+.computerItemContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@
  
 }
 
-.mobileItemContainer:hover {
+.computerItemContainer:hover {
   transform: translateY(-4px) scale(1.03);
 }
 
@@ -45,7 +45,7 @@
   transition: box-shadow 0.25s;
 }
 
-.mobileItemContainer:hover .computerPageCard img {
+.computerItemContainer:hover .computerPageCard img {
   box-shadow: 0 4px 16px rgba(0,0,0,0.14);
 }
 
@@ -76,7 +76,7 @@
   }
 }
 
-/* For mobile phones (1 image per row) */
+/* For computer phones (1 image per row) */
 @media (max-width: 600px) {
   .computerPageSection {
     grid-template-columns: 1fr;
