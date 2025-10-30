@@ -2,7 +2,7 @@ export const tvData = [
   {
     "id": "1",
     "product": "TV",
-    "image": "Assets/TV/1.jpg",
+    "image": "/Assets/TV/1.jpg",
     "brand": "LG",
     "model": "OLED CX Series",
     "price": "1999.00",
@@ -12,7 +12,7 @@ export const tvData = [
   {
     "id": "2",
     "product": "TV",
-    "image": "Assets/TV/2.jpg",
+    "image": "/Assets/TV/2.jpg",
     "brand": "Sony",
     "model": "Bravia X90J",
     "price": "1499.00",
@@ -22,7 +22,7 @@ export const tvData = [
   {
     "id": "3",
     "product": "TV",
-    "image": "Assets/TV/3.jpg",
+    "image": "/Assets/TV/3.jpg",
     "brand": "Samsung",
     "model": "QLED Q80A",
     "price": "1799.99",
@@ -32,7 +32,7 @@ export const tvData = [
   {
     "id": "4",
     "product": "TV",
-    "image": "Assets/TV/4.jpg",
+    "image": "/Assets/TV/4.jpg",
     "brand": "TCL",
     "model": "6-Series",
     "price": "799.00",
@@ -42,7 +42,7 @@ export const tvData = [
   {
     "id": "5",
     "product": "TV",
-    "image": "Assets/TV/5.jpg",
+    "image": "/Assets/TV/5.jpg",
     "brand": "Vizio",
     "model": "P-Series Quantum",
     "price": "1199.50",
@@ -52,7 +52,7 @@ export const tvData = [
   {
     "id": "6",
     "product": "TV",
-    "image": "Assets/TV/6.jpg",
+    "image": "/Assets/TV/6.jpg",
     "brand": "Hisense",
     "model": "U8G Series",
     "price": "999.00",
@@ -62,7 +62,7 @@ export const tvData = [
   {
     "id": "7",
     "product": "TV",
-    "image": "Assets/TV/7.jpg",
+    "image": "/Assets/TV/7.jpg",
     "brand": "Panasonic",
     "model": "HZ2000",
     "price": "2499.99",
@@ -72,7 +72,7 @@ export const tvData = [
   {
     "id": "8",
     "product": "TV",
-    "image": "Assets/TV/8.jpg",
+    "image": "/Assets/TV/8.jpg",
     "brand": "Sharp",
     "model": "Aquos R5G",
     "price": "1499.00",
@@ -82,7 +82,7 @@ export const tvData = [
   {
     "id": "9",
     "product": "TV",
-    "image": "Assets/TV/9.jpg",
+    "image": "/Assets/TV/9.jpg",
     "brand": "Philips",
     "model": "Ambilight 4K",
     "price": "999.99",
@@ -92,7 +92,7 @@ export const tvData = [
   {
     "id": "10",
     "product": "TV",
-    "image": "Assets/TV/10.jpg",
+    "image": "/Assets/TV/10.jpg",
     "brand": "Sceptre",
     "model": "X438BV-FSR",
     "price": "299.50",

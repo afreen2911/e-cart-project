@@ -1,11 +1,11 @@
 import React from 'react'
-
-import { mobileData } from '../components/data/mobiles'
+import { menData } from '../components/data/men'
 import { useParams } from 'react-router-dom'
 import Navbar from '../components/Navbar'
-const MobileSingle = () => {
-    const {id}=useParams()
-    const product=mobileData.find(item=>item.id===id)
+
+const MenSingle = () => {
+    const {id} =useParams()
+    const product= menData.find(item=>item.id===id)
   return (
     <>
     <Navbar/>
@@ -15,7 +15,8 @@ const MobileSingle = () => {
         </div>
         <div className="productDetails">
             <div className="singleModel">
-                <h3>{product.model}</h3>
+                <h3>{product.model}
+                </h3>
             </div>
             <div className="singlePrice">
                 <h3>{product.price}</h3>
@@ -32,10 +33,7 @@ const MobileSingle = () => {
         </div>
     </div>
     </>
-    
-        
-   
   )
 }
 
-export default MobileSingle
+export default MenSingle

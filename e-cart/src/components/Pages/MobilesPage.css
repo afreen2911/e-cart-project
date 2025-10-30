@@ -83,9 +83,9 @@
   }
 
   .mobilesPageCard {
-    width: 50%;
-    height: 230px;
-    margin: 5 auto; /* centers image card */
+    width: 260px;
+    height: 260px;
+    margin: 15px auto; /* centers image card */
   }
 
   .mobilesProductName {

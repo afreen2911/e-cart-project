@@ -16,7 +16,7 @@ const Navbar = () => {
         <ul>
           <Link to ={ '/mobilespage' }><li>Mobiles</li></Link>
           <Link to={'/tabletspage'}><li>Tablets</li></Link>
-          <Link to={'/tvspage'}><li>TV's</li></Link>
+          <Link to={'/tvpage'}><li>TV's</li></Link>
           <Link to={'/womenpage'}><li>Women</li></Link>
           <Link to={'/menpage'}><li>Men</li></Link>
           <Link to={'/kidspage'}><li>Kids</li></Link>

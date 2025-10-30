@@ -10,18 +10,21 @@ const MobilesPage = () => {
     <Navbar/>
     <div className="mobilesPageSection">
       {
-      mobileData.map((item) => (
-        <div className="mobileItemContainer">
+      mobileData.map((item) => {
+        return(
+          <div className="mobileItemContainer">
           <Link to={`/mobilespage/${item.id}`}>
           <div className="mobilesPageCard">
             <img src={item.image} alt="" />
           </div>
           </Link>
           <h3 className="mobilesProductName">
-            {item.company}
+            {item.model}
             </h3> {/* ✅ Outside the card */}
         </div>
-      ))}
+        )
+      })
+      }
     </div>
   
     </>

@@ -18,6 +18,10 @@ import WatchesPage from './components/Pages/WatchesPage'
 import SpeakersPage from './components/Pages/SpeakersPage'
 import BeautyPage from './components/Pages/BeautyPage'
 import MobileSingle from './singles/MobileSingle'
+import WomenSingle from './singles/WomenSingle'
+import SingleTablet from './singles/SingleTablet'
+import SingleTv from './singles/SingleTv'
+
 
 
 const App = () => {
@@ -27,7 +31,7 @@ const App = () => {
         <Route path='/' element= {<Landingpage />} />
         <Route path='/mobilespage' element={<MobilesPage />} />
         <Route path='/tabletspage' element={<TabletPage />} />
-        <Route path='/tvspage' element={<TvPage />} />
+        <Route path='/tvpage' element={<TvPage />} />
         <Route path='/menpage' element={<MenPage />} />
         <Route path='/womenpage' element={<WomenPage />} />
         <Route path='/kidspage' element={<KidsPage />} />
@@ -41,6 +45,9 @@ const App = () => {
         <Route path='/speakerspage' element={<SpeakersPage  />} />
         <Route path='/beautypage' element={<BeautyPage />} />
         <Route path='/mobilespage/:id' element={<MobileSingle/>} />
+        <Route path='/womenpage/:id' element={<WomenSingle/>} />
+        <Route path='/tabletspage/:id' element={<SingleTablet/>} />
+        <Route path='/tvpage/:id' element={<SingleTv/>} />
        </Routes>
     </div>
   )
